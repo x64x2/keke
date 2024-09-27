@@ -2,7 +2,7 @@
 
 [![DOI](images/zenodo.11048224.png)](https://doi.org/10.5281/zenodo.11048224)
 
-This [Julia](https://julialang.org/) toolbox allows predicting [clozapine](https://en.wikipedia.org/wiki/Clozapine) (CLO) and [ clozapine norclozapine](https://en.wikipedia.org/wiki/Desmethylclozapine) (NCLO) clozapine norclozapine blood concentrations.
+This [Python](https://python.org/) toolbox allows predicting [clozapine](https://en.wikipedia.org/wiki/Clozapine) (CLO) and [ clozapine norclozapine](https://en.wikipedia.org/wiki/Desmethylclozapine) (NCLO) clozapine norclozapine blood concentrations.
 
 Individual recommended safe dose range can also be predicted:
 
@@ -10,7 +10,7 @@ Individual recommended safe dose range can also be predicted:
 
 ## Performance
 
-The model are actively developed and we expect its accuracy to improve.
+The model are actively developed 
 
 ### Training
 
@@ -176,43 +176,10 @@ prediction      ├──────┼──────┤
 
 ## Quickstart
 
-Install the latest Julia version from [https://julialang.org/downloads/](https://julialang.org/downloads/)
-
-Clone this repository, go to its folder and run to install required packages (this has to be done only once):
-
-```sh
-julia src/install.jl
-```
-
-Start the server:
-
-```sh
-julia src/install.jl
-```
-
-The server is listening on port 8080. With your web browser, go to [http://localhost:8080](http://localhost:8080), enter patient's data and click the "PREDICT" button.
+- Clone repo
 
 ![](images/webpage.png)
 
-Alternatively, the server is also available online at [https://csk.umed.pl/clotop](https://csk.umed.pl/clotop).
-
-## How to Cite
-
-If you use this tool, please acknowledge us by citing our [paper](https://zenodo.org/records/11048224).
-
-## Contributors
-
-Below is the list of contributors and their affiliations.
-
-[Adam Wysokiński](mailto:adam.wysokinski@umed.lodz.pl) [![ORCID](images/orcid.png)](https://orcid.org/0000-0002-6159-6579)
-
-[Joanna Dreczka](mailto:jdreczka@csk.umed.pl)
-
-[![Medical University of Lodz](images/umed.png)](https://en.umed.pl)
-
-## License
-
-This software is licensed under [The 2-Clause BSD License](LICENSE).
 
 ## Disclaimers
 
